@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SoftwareSystemPageObjects SoftwareSystemName="DynamicPets" Platform="CSharp">
+  <project projectId="DynamicPets">
+    <pageobject id="DynamicPets.Form1" name="Form1" type="html" width="800px" height="450px" overflow="hidden">
+      <element name="System.Windows.Forms.Button" type="System.Windows.Forms.Button" varname="bntDog" text="Add Dog" background-color="#5CB85C" color="White" left="24px" top="27px" width="161px" height="48px" position="absolute" />
+      <element name="System.Windows.Forms.Button" type="System.Windows.Forms.Button" varname="btnAddCat" text="Add Cat" background-color="#5BC0DE" color="White" left="191px" top="27px" width="142px" height="48px" position="absolute" />
+      <element name="System.Windows.Forms.Button" type="System.Windows.Forms.Button" varname="btnAddParrot" text="Add Parrot" background-color="#F0AD4E" color="White" left="349px" top="27px" width="171px" height="48px" position="absolute" />
+      <element name="System.Windows.Forms.Button" type="System.Windows.Forms.Button" varname="btnClear" text="Clear" left="656px" top="29px" width="132px" height="46px" position="absolute" />
+      <element name="System.Windows.Forms.Panel" type="System.Windows.Forms.Panel" varname="panelControls" left="22px" top="110px" width="766px" height="314px" position="absolute" />
+    </pageobject>
+    <pageobject id="DynamicPets.UserControl2" name="UserControl2" type="usercontrol" width="400px" height="300px" position="absolute">
+      <element name="System.Windows.Forms.PictureBox" type="System.Windows.Forms.PictureBox" varname="pictureBox1" left="16px" top="21px" width="161px" height="110px" position="absolute" />
+      <element name="System.Windows.Forms.Label" type="System.Windows.Forms.Label" varname="label1" text="Are you a dog lover ?" width="auto" left="183px" top="97px" height="auto" position="absolute" />
+      <element name="System.Windows.Forms.Label" type="System.Windows.Forms.Label" varname="lbl1" text="The dog in the photo is thinking in ....?" width="auto" left="24px" top="172px" height="auto" position="absolute" />
+      <element name="System.Windows.Forms.TextBox" type="System.Windows.Forms.TextBox" varname="textBox1" left="27px" top="188px" width="242px" height="20px" position="absolute" />
+      <element name="System.Windows.Forms.Button" type="System.Windows.Forms.Button" varname="button1" text="Guess what the dog is thinking?" left="256px" top="240px" width="129px" height="39px" position="absolute" />
+    </pageobject>
+    <pageobject id="DynamicPets.UserControl1" name="UserControl1" type="usercontrol" width="400px" height="300px" position="absolute">
+      <element name="System.Windows.Forms.PictureBox" type="System.Windows.Forms.PictureBox" varname="pictureBox1" left="12px" top="24px" width="161px" height="110px" position="absolute" />
+      <element name="System.Windows.Forms.Label" type="System.Windows.Forms.Label" varname="label1" text="Are you a cat lover ?" width="auto" left="179px" top="100px" height="auto" position="absolute" />
+      <element name="System.Windows.Forms.Label" type="System.Windows.Forms.Label" varname="lbl1" text="The cat in the photo is thinking in ....?" width="auto" left="20px" top="175px" height="auto" position="absolute" />
+      <element name="System.Windows.Forms.TextBox" type="System.Windows.Forms.TextBox" varname="textBox1" left="23px" top="191px" width="242px" height="20px" position="absolute" />
+      <element name="System.Windows.Forms.Button" type="System.Windows.Forms.Button" varname="button1" text="Guess what the cat is thinking?" left="252px" top="243px" width="129px" height="39px" position="absolute" />
+    </pageobject>
+    <pageobject id="DynamicPets.UserControl3" name="UserControl3" type="usercontrol" width="400px" height="300px" position="absolute">
+      <element name="System.Windows.Forms.PictureBox" type="System.Windows.Forms.PictureBox" varname="pictureBox1" left="16px" top="21px" width="161px" height="110px" position="absolute" />
+      <element name="System.Windows.Forms.Label" type="System.Windows.Forms.Label" varname="label1" text="Are you a dog lover ?" width="auto" left="183px" top="97px" height="auto" position="absolute" />
+      <element name="System.Windows.Forms.Label" type="System.Windows.Forms.Label" varname="lbl1" text="The parrot in the photo is thinking in ....?" width="auto" left="24px" top="172px" height="auto" position="absolute" />
+      <element name="System.Windows.Forms.TextBox" type="System.Windows.Forms.TextBox" varname="textBox1" left="27px" top="188px" width="242px" height="20px" position="absolute" />
+      <element name="System.Windows.Forms.Button" type="System.Windows.Forms.Button" varname="button1" text="Guess what the parrot is thinking?" left="256px" top="240px" width="129px" height="39px" position="absolute" />
+    </pageobject>
+  </project>
+</SoftwareSystemPageObjects>

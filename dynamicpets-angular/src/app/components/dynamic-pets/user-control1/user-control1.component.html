@@ -1,0 +1,9 @@
+<div *ngIf="model" class="DynamicPets_UserControl1">
+    <div class="UserControl1" [ngStyle]="setMyStyle()" [ngClass]="class" name="UserControl1">
+        <wm-picturebox id="pictureBox1" [model]="model.pictureBox1" class="pictureBox1" tabindex="1"></wm-picturebox>
+        <wm-label id="label1" [model]="model.label1" class="label1" tabindex="2">Are you a cat lover ?</wm-label>
+        <wm-label id="lbl1" [model]="model.lbl1" class="lbl1" tabindex="4">The cat in the photo is thinking in ....?</wm-label>
+        <wm-textbox id="textBox1" [model]="model.textBox1" class="textBox1" tabindex="5"></wm-textbox>
+        <wm-button id="button1" [model]="model.button1" class="button1" tabindex="3"></wm-button>
+    </div>
+</div>

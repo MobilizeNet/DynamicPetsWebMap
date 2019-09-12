@@ -1,0 +1,69 @@
+.DynamicPets_Form1 {
+    left: -1px;
+    top: -1px;
+}
+.DynamicPets_Form1 .Form1 {
+    width: 800px;
+    height: 450px;
+    overflow: hidden;
+}
+.DynamicPets_Form1 .bntDog {
+    background-image: unset;
+    background-color: #5CB85C;
+    color: White;
+    left: 24px;
+    top: 27px;
+    width: 161px;
+    height: 48px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.DynamicPets_Form1 .btnAddCat {
+    background-image: unset;
+    background-color: #5BC0DE;
+    color: White;
+    left: 191px;
+    top: 27px;
+    width: 142px;
+    height: 48px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.DynamicPets_Form1 .btnAddParrot {
+    background-image: unset;
+    background-color: #F0AD4E;
+    color: White;
+    left: 349px;
+    top: 27px;
+    width: 171px;
+    height: 48px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.DynamicPets_Form1 .btnClear {
+    left: 656px;
+    top: 29px;
+    width: 132px;
+    height: 46px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
+.DynamicPets_Form1 .panelControls {
+    left: 22px;
+    top: 110px;
+    width: 766px;
+    height: 314px;
+    position: absolute;
+}

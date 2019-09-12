@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <StartupObject>WebSite.Startup</StartupObject>
+        <AssemblyName>DynamicPets</AssemblyName>
+        <ProjectGuid>d4c13fe1-1b0a-4101-af77-d059dc7d8f14</ProjectGuid>
+        <Deterministic>False</Deterministic>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
+      <PackageReference Include="Mobilize.Extensions.Logging.RollingFile" Version="2.1.1-rc0027" />
+      <PackageReference Include="Mobilize.WebMap.CoreServices.All" Version="6.0.0-rc.110" />
+      <PackageReference Include="Mobilize.Web.BundleBasic.All" Version="5.0.6-rc0024" />
+      <PackageReference Include="Mobilize.VBUC.Helpers.All" Version="8.1.2-rc0876" />
+      <PackageReference Include="Mobilize.Weaving.WebMapExtensions.All" Version="6.0.0-rc.101" />
+      <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="Views\**\*.cshtml" />
+        <Content Include="Views\**\*.config" />
+        <Compile Remove="Media\**" />
+        <Compile Remove="Stubs\**" />
+        <Content Remove="Media\**" />
+        <Content Remove="Stubs\**" />
+        <EmbeddedResource Remove="Media\**" />
+        <EmbeddedResource Remove="Stubs\**" />
+        <None Remove="Media\**" />
+        <None Remove="Stubs\**" />
+        <Compile Remove="*-angular\**" />
+        <Content Remove="*-angular\**" />
+        <EmbeddedResource Remove="*-angular\**" />
+        <None Remove="*-angular\**" />
+        <Compile Remove="packages\**" />
+        <Content Remove="Stubs\**" />
+        <EmbeddedResource Remove="packages\**" />
+        <EmbeddedResource Remove="Stubs\**" />
+        <None Remove="packages\**" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove=".gitattributes" />
+      <None Remove=".gitignore" />
+      <None Remove=".gitpod.yml" />
+      <None Remove="Dockerfile" />
+    </ItemGroup>
+</Project>
+

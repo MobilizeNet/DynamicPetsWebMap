@@ -1,0 +1,10 @@
+body{
+    background-color: lightgrey;
+}
+
+.k-window-titlebar {
+    background: rgb(63, 81, 181);
+    margin-bottom: 10px;
+    max-height: 14px;
+    color: white;
+}

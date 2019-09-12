@@ -1,0 +1,14 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="Form1" class="DynamicPets_Form1">
+        <ng-template let-model>
+            <div class="Form1">
+                <wm-button id="bntDog" [model]="model.bntDog" class="bntDog" tabindex="1"></wm-button>
+                <wm-button id="btnAddCat" [model]="model.btnAddCat" class="btnAddCat" tabindex="2"></wm-button>
+                <wm-button id="btnAddParrot" [model]="model.btnAddParrot" class="btnAddParrot" tabindex="3"></wm-button>
+                <wm-button id="btnClear" [model]="model.btnClear" class="btnClear" tabindex="4"></wm-button>
+                <wm-panel id="panelControls" [model]="model.panelControls" class="panelControls" tabindex="5">
+</wm-panel>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

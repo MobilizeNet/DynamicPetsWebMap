@@ -1,0 +1,48 @@
+
+.DynamicPets_UserControl2 .UserControl2 {
+    width: 98%;
+    height: 300px;
+    position: absolute;
+}
+.DynamicPets_UserControl2 .pictureBox1 {
+    left: 16px;
+    top: 21px;
+    width: 161px;
+    height: 110px;
+    position: absolute;
+}
+.DynamicPets_UserControl2 .label1 {
+    width: auto;
+    left: 183px;
+    top: 97px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.DynamicPets_UserControl2 .lbl1 {
+    width: auto;
+    left: 24px;
+    top: 172px;
+    height: auto;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.DynamicPets_UserControl2 .textBox1 {
+    left: 27px;
+    top: 188px;
+    width: 242px;
+    height: 20px;
+    position: absolute;
+}
+.DynamicPets_UserControl2 .button1 {
+    left: 256px;
+    top: 240px;
+    height: 39px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
